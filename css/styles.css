@@ -4,7 +4,46 @@ background-color: #ffffff;
 color: #434455;
 
 }
-
-.main-title {
-color: blueviolet;
+/* ----------------header -------------------------*/
+.header {
+color:#FFFFFF ;
 }
+
+.main-logo {
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+position: absolute;
+width: 115px;
+height: 24px;
+left: 156px;
+top: 24px;
+}
+
+.navigation {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2add33;
+padding: 40px;
+margin: 24px;
+}
+
+.mail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.tel{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+/* !<!-- Головний контент,секція1 --> */
