@@ -1,12 +1,21 @@
 :root {
     --main-title-color: #ffffff; 
     --second-title-color: #2E2F42;
+    --third-title-color: #434455 ;
 }
 
 body {
 font-family:'Roboto', sans-serif;
 background-color: #ffffff;
 color: #434455;
+}
+
+.list {
+list-style: none;
+}
+
+.link {
+text-decoration: none;
 }
 
 .contacts {
@@ -17,6 +26,7 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: #434455;
+
 
 
 }
@@ -44,17 +54,35 @@ letter-spacing: 0.02em;
 color:#FFFFFF ;
 }
 
-.main-logo {
+.navigation-list{
 
+}
+
+.main-logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
 display: flex;
 flex-direction: row;
 align-items: center;
-padding: 0px;
-position: absolute;
-width: 115px;
-height: 24px;
-left: 156px;
-top: 24px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+
+.main-logo-studio {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--second-title-color);
+
 }
 
 .navigation {
@@ -62,12 +90,43 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #ffffff;
+color: var(--second-title-color);
 }
+
+.navigation:is(:hover. :focus) {
+    color: #404bbf ; 
+}
+
+.header-list{}
+
+.header-link {}
 
 .mail {
 
 }
+
+.mail-link {
+    line-height: 1.5
+    letter-spacing: 0.02em
+    color: var(--third-title-color)
+}
+
+.mail-link:is(:hover, :focus) {
+    color: #404bbf;
+}
+
+}
+
+.tel-link {
+    line-height: 1.5
+    letter-spacing: 0.02em
+    color: var(--third-title-color)
+}
+
+tel.link:is(:hover, :focus) {
+    color: #404bbf;
+}
+
 .tel{
 
 }
