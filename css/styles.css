@@ -1,9 +1,43 @@
+
 body {
 font-family:'Roboto', sans-serif;
 background-color: #ffffff;
 color: #434455;
+}
+
+.contacts {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
+
 
 }
+.title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.text {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+
+}
+
 /* ----------------header -------------------------*/
 .header {
 color:#FFFFFF ;
@@ -27,23 +61,101 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2add33;
-padding: 40px;
-margin: 24px;
+color: #ffffff;
 }
 
 .mail {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+
 }
 .tel{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+
 }
 /* !<!-- Головний контент,секція1 --> */
+
+.descrition {
+}
+.descrition-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.description-btn {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+/*---------Strategy, section2----------*/
+
+.strategy-list {
+}
+.strategy-main-title {
+}
+.strategy-list-content {
+}
+.strategy-item {
+
+}
+.strategy-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.strategy-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* --------------------What are we doing, perfomnce section 3------------------- */
+.perfomance {
+}
+.perfomance-title {
+    color: #2E2F42;
+}
+
+.perfomance-list {
+}
+.perfomance-item {
+}
+
+/* --------------------------------Our team, section 4 ------------------------- */
+
+.team {
+}
+.team-title {
+    color: #2E2F42;
+}
+.team-members {
+}
+.team-members-item {
+}
+.team-members-item-title {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.team-members-item-text {
+}
+
+/*  -----------Footer ----------- */
+
+
+.footer-text {
+    color: #F4F4FD;
+}
