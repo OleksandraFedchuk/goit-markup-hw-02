@@ -213,6 +213,7 @@ color: #434455;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize; 
+    letter-spacing: 0.02em;
     color: var(--second-title-color);
 }
 
@@ -265,7 +266,7 @@ color: var(--second-title-color);
 }
 .main-logo-studio-footer {
 
-    background-color: #f4f4fd;
+    background-color: var(--third-title-color);
 }
 
  /* ----------------PAGE POTFOLIO --------------------  */
