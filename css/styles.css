@@ -106,7 +106,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--second-title-color)
+color: var(--second-title-color);
 }
 
 .header-link:is(:hover, :focus) {
@@ -124,9 +124,9 @@ font-style:normal;
 }
 
 .mail-link {
-    line-height: 1.5
-    letter-spacing: 0.02em
-    color: var(--third-title-color)
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--third-title-color);
 }
 
 .mail-link:is(:hover, :focus) {
@@ -136,9 +136,9 @@ font-style:normal;
 
 
 .tel-link {
-    line-height: 1.5
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--third-title-color)
+    color: var(--third-title-color);
 }
 
 tel.link:is(:hover, :focus) {
@@ -181,10 +181,14 @@ tel.link:is(:hover, :focus) {
 /*---------Strategy, section2----------*/
 
 .strategy-list {
+
+
 }
 .strategy-main-title {
+
 }
 .strategy-list-content {
+
 }
 .strategy-item {
 
@@ -226,7 +230,6 @@ color: #434455;
 
 .team {
     background-color: #F4F4FD; 
-
 }
 .team-title {
     font-size: 36px;
@@ -265,8 +268,7 @@ color: var(--second-title-color);
     color: var(--forth-title-color);
 }
 .main-logo-studio-footer {
-
-    background-color: var(--third-title-color);
+     color: var(--forth-title-color);
 }
 
  /* ----------------PAGE POTFOLIO --------------------  */
