@@ -264,6 +264,10 @@ color: var(--second-title-color);
 .footer-text {
     color: var(--forth-title-color);
 }
+.main-logo-studio-footer {
+
+    background-color: #f4f4fd;
+}
 
  /* ----------------PAGE POTFOLIO --------------------  */
 
