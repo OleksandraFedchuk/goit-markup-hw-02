@@ -74,7 +74,7 @@ color: #4D5AE5;
 }
 
 .main-logo-studio {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -138,7 +138,7 @@ font-style:normal;
 
 .tel-link {
     line-height: 1.5
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
     color: var(--third-title-color)
 }
 
@@ -262,7 +262,7 @@ color: var(--second-title-color);
 }
 
 .footer-text {
-    color: #F4F4FD;
+    color: var(--forth-title-color);
 }
 
  /* ----------------PAGE POTFOLIO --------------------  */
@@ -307,6 +307,9 @@ color: var(--second-title-color);
 .possibilities-list {
 }
 .possibilities-item {
+}
+.possibilities-item-link{
+
 }
 .possibilities-item-name {
 font-weight: 500;
